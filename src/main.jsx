@@ -14,7 +14,7 @@ const router = createBrowserRouter(
   createRoutesFromChildren(
     <>
       <Route path="Webito-Task/" element={<App />} />
-      <Route path="/form" element={<Form />} />
+      <Route path="Webito-Task/form" element={<Form />} />
       <Route path="/effect-ref" element={<Effect />} />
       <Route path="/callback" element={<Callback />} />
       <Route path="/memo" element={<Memo />} />
