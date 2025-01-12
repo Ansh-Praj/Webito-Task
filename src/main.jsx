@@ -13,7 +13,7 @@ import Memo from './components/Memo.jsx';
 const router = createBrowserRouter(
   createRoutesFromChildren(
     <>
-      <Route path="/" element={<App />} />
+      <Route path="/Webito-Task" element={<App />} />
       <Route path="/form" element={<Form />} />
       <Route path="/effect-ref" element={<Effect />} />
       <Route path="/callback" element={<Callback />} />
